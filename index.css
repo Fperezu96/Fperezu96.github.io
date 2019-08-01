@@ -1,0 +1,46 @@
+  html,body{
+    height: 100%; 
+  }
+
+  .bg { 
+    /* The image used */
+    background-image: url('images/astronomy.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    /* Center and scale the content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    /* Give the font style to the components*/
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+    font-weight: 700;
+  }
+
+ /* Give img a */
+  img{
+    width: 15%; height: 15%;
+  }
+
+  /* Give the font size to the h2 components*/
+  h2 {
+    font-size: 60px;
+  }
+
+  /* Give the font size to the p components*/
+  p {
+    font-size: 30px;
+  }
+
+  .fondo-text{
+    background-color: rgb(6, 22, 65);
+  }
